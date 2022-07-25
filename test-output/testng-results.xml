@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T17:56:58 IST" name="Facebook Login" finished-at="2022-07-25T17:56:59 IST" duration-ms="9">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T17:56:58 IST" name="Facebook Login Positive case" finished-at="2022-07-25T17:56:59 IST" duration-ms="4">
+      <class name="FirstTest">
+        <test-method signature="test1()[pri:0, instance:FirstTest@4d02f94e]" started-at="2022-07-25T17:56:58 IST" name="test1" finished-at="2022-07-25T17:56:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- FirstTest -->
+    </test> <!-- Facebook Login Positive case -->
+    <test started-at="2022-07-25T17:56:59 IST" name="Facebook News feed case" finished-at="2022-07-25T17:56:59 IST" duration-ms="3">
+      <class name="TestFacebookFeed">
+        <test-method signature="testFacebookFeed()[pri:0, instance:TestFacebookFeed@759d26fb]" started-at="2022-07-25T17:56:59 IST" name="testFacebookFeed" finished-at="2022-07-25T17:56:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookFeed -->
+      </class> <!-- TestFacebookFeed -->
+    </test> <!-- Facebook News feed case -->
+  </suite> <!-- Facebook Login -->
+  <suite started-at="2022-07-25T17:56:58 IST" name="TestNG Parameter (0)" finished-at="2022-07-25T17:56:58 IST" duration-ms="7">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T17:56:58 IST" name="Test Parameters case" finished-at="2022-07-25T17:56:58 IST" duration-ms="7">
+      <class name="com.testng.practice.TestParameter">
+        <test-method signature="testBrowser(java.lang.String)[pri:0, instance:com.testng.practice.TestParameter@101952da]" started-at="2022-07-25T17:56:58 IST" name="testBrowser" finished-at="2022-07-25T17:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowser -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testng.practice.TestParameter@101952da]" started-at="2022-07-25T17:56:58 IST" name="testLogin" finished-at="2022-07-25T17:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.testng.practice.TestParameter -->
+    </test> <!-- Test Parameters case -->
+  </suite> <!-- TestNG Parameter (0) -->
+  <suite started-at="2022-07-25T17:56:58 IST" name="Data Provider Suite" finished-at="2022-07-25T17:56:58 IST" duration-ms="115">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T17:56:58 IST" name="Smoke Test" finished-at="2022-07-25T17:56:58 IST" duration-ms="35">
+      <class name="com.testng.itestcontext.DataProviderSmokeTest">
+        <test-method signature="smokeTest(java.lang.String)[pri:0, instance:com.testng.itestcontext.DataProviderSmokeTest@53aad5d5]" started-at="2022-07-25T17:56:58 IST" name="smokeTest" data-provider="TestType" finished-at="2022-07-25T17:56:58 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Performing smoke testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+      </class> <!-- com.testng.itestcontext.DataProviderSmokeTest -->
+    </test> <!-- Smoke Test -->
+    <test started-at="2022-07-25T17:56:58 IST" name="Unit Test" finished-at="2022-07-25T17:56:58 IST" duration-ms="3">
+      <class name="com.testng.itestcontext.DataProviderUnitTest">
+        <test-method signature="unitTest(java.lang.String)[pri:0, instance:com.testng.itestcontext.DataProviderUnitTest@31e5415e]" started-at="2022-07-25T17:56:58 IST" name="unitTest" data-provider="TestType" finished-at="2022-07-25T17:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Performing unit testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTest -->
+      </class> <!-- com.testng.itestcontext.DataProviderUnitTest -->
+    </test> <!-- Unit Test -->
+    <test started-at="2022-07-25T17:56:58 IST" name="Regression Test" finished-at="2022-07-25T17:56:58 IST" duration-ms="4">
+      <class name="com.testng.itestcontext.DataProviderRegressionTest">
+        <test-method signature="regressionTest(java.lang.String)[pri:0, instance:com.testng.itestcontext.DataProviderRegressionTest@22e357dc]" started-at="2022-07-25T17:56:58 IST" name="regressionTest" data-provider="TestType" finished-at="2022-07-25T17:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Performing regression testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTest -->
+      </class> <!-- com.testng.itestcontext.DataProviderRegressionTest -->
+    </test> <!-- Regression Test -->
+    <test started-at="2022-07-25T17:56:58 IST" name="Scenario Test" finished-at="2022-07-25T17:56:58 IST" duration-ms="11">
+      <class name="com.testng.itestcontext.DataProviderParameters">
+        <test-method signature="commonscenario(java.lang.String)[pri:0, instance:com.testng.itestcontext.DataProviderParameters@6a84a97d]" started-at="2022-07-25T17:56:58 IST" name="commonscenario" data-provider="Scenario" finished-at="2022-07-25T17:56:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Performing common test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonscenario -->
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:com.testng.itestcontext.DataProviderParameters@6a84a97d]" started-at="2022-07-25T17:56:58 IST" name="scenario1" data-provider="Scenario" finished-at="2022-07-25T17:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Performing scenario 1 testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method signature="scenario2(java.lang.String)[pri:0, instance:com.testng.itestcontext.DataProviderParameters@6a84a97d]" started-at="2022-07-25T17:56:58 IST" name="scenario2" data-provider="Scenario" finished-at="2022-07-25T17:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Performing scenario 2 testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+      </class> <!-- com.testng.itestcontext.DataProviderParameters -->
+    </test> <!-- Scenario Test -->
+  </suite> <!-- Data Provider Suite -->
+  <suite started-at="2022-07-25T17:56:59 IST" name="TestNG Parameter" finished-at="2022-07-25T17:56:59 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- TestNG Parameter -->
+</testng-results>
